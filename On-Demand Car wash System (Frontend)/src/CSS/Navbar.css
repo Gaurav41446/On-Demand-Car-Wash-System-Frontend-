@@ -1,0 +1,128 @@
+/* CSS for the navbar */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header {
+  z-index: 1;
+  position: fixed;
+  background: #50e9f1;
+  padding: 30px;
+  margin-top: 88px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 100px;
+} */
+
+.sidebar {
+  z-index: 1;
+  top: 0;
+  background: #606a84;
+  margin-top: 90px;
+  padding-top: 77px;
+  position: fixed;
+  left: 0;
+  width: 215px;
+  height: -webkit-fill-available;
+  transition: 0.5s;
+  transition-property: left;
+  overflow-y: auto;
+}
+
+.left_area h3 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span {
+  color: #f1bf0c;
+}
+
+.logout_btn {
+  padding: 5px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btn:hover {
+  background: #0B87A6;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background: #959caf;
+  overflow-x: hidden;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  flex-grow: 1;
+  height: 20px;
+
+}
+
+/* Styling for the navbar links */
+.navbar a {
+  display: block;
+  color: #f6f1f1;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/* Hover effect for the navbar links */
+.navbar a:hover {
+  background-color: #555;
+}
+
+
+
+/* Styling for the dropdown box */
+.dropdown-content {
+  display: none;
+  background-color: bla;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(154, 55, 184, 0.2);
+  z-index: 1;
+}
+
+/* Styling for the dropdown box links */
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown box when hovering over its parent */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.h2{
+  margin-bottom: 50px;
+}
+.container{
+  margin-top: 100px;
+}

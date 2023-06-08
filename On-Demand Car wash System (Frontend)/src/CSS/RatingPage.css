@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwhite-blur-background&psig=AOvVaw08NfNb2h51xePtHVByF35N&ust=1684911369862000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjOv47uiv8CFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  filter: blur(0px);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.rating-stars-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.rating-stars-horizontal input[type="radio"] {
+  display: none;
+}
+
+.rating-stars-horizontal label {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating-stars-horizontal label:hover,
+.rating-stars-horizontal label:hover ~ label,
+.rating-stars-horizontal input[type="radio"]:checked ~ label {
+  color: #ffcc00;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #a58080;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.thank-you-message {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}

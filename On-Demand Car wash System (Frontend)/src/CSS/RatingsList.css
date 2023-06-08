@@ -1,0 +1,41 @@
+.ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: -21px;
+  }
+  
+  .ratings-table th,
+  .ratings-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ratings-table th {
+    background-color: #52e8e6;
+    color: #141414;
+    border: 2px solid black;
+  }
+  
+  .ratings-table td {
+    background-color: #f2f2f2;
+    border: 2px solid black;
+  }
+  
+  .ratings-table tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  .ratings-table td:first-child {
+    font-weight: bold;
+  }
+  
+  .ratings-table td:last-child {
+    white-space: pre-wrap;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  

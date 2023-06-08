@@ -1,0 +1,44 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 232px;
+ 
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #0a0a0a;
+}
+
+th {
+  background-color: #79dde2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Added to vertically align the buttons */
+  margin-top: 10px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container .view-button {
+  background-color: #1ef4f8;
+  color: #9af5ff;
+}
+
+.button-container .delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}

@@ -1,0 +1,55 @@
+.washer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: -22px;
+  }
+  
+  .washer-table th {
+    background-color: #52e8e6;
+    text-align: left;
+    padding: 8px;
+    border: 2px solid black;
+  }
+  
+  .washer-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid black;
+  }
+  
+  .washer-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  .actions button {
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .actions button.view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .actions button.view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions button.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .actions button.delete-button:hover {
+    background-color: #c82333;
+  }
+  
